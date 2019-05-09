@@ -1,3 +1,6 @@
+//const envSetup = require("dotenv");
+//envSetup.config();
+require("dotenv").config();
 const server = require('./api/server.js');
 
 server.listen(process.env.PORT, () => {
